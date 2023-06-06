@@ -11,15 +11,22 @@ Some pattern of the missing values can be identified and it is not missed comple
 Some values are not missed at random but the user might have purposefully avoided giving the data.
 
 Handling missing values using machine learning:
+
 Filling missing values using Linear Regression
 Step 1: Test data will be missing values
+
 Step 2: Drop the null values and consider it as train data
 Checking null values in train data.
+
 Step 3:  Create x_train and y_train from the dataset
 y_train is the rows of age with non null values
 x_train is the dataset except age column with non null values
+
 Step 4 : Building the model
+
 Step 5: Creating X_test from Test_data
+
 Step 6: Applying the model and predicting the missing values
+
 Step 7: Replacing the missing values by predicted values:
 
